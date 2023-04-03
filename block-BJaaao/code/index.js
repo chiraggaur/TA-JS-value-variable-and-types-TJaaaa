@@ -56,10 +56,12 @@ let num2 = 32;
   - Log using console.log [numA * numB]
 */
 
-// let numA =   prompt (`choose number 1`);
-// let numB =   prompt (`choose number 2`);
-// let a = number (numA);
-// let b = number (numB);
-// alert( a + b ); 
+let numA =  Number ( prompt (`choose number 1`)) ;
+let numB =   Number (prompt (`choose number 2`));
+alert( numA + numB ); 
+alert( numA - numB ); 
+alert( numA * numB ); 
 
+console.log( numA - numB); 
+console.log( numA * numB); 
 // console.log(numberOne);
