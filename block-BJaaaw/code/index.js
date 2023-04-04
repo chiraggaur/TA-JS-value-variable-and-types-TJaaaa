@@ -61,8 +61,8 @@
 
 // let houseName = prompt(`What is Your House Name ?`);
 
-// (houseName == "stark" ) ? alert("Winter is coming" ) : alert("A lannister always pays his debt" ) : alert(" All men must die") ;
-// (houseName == "lannister" ) ? alert("A lannister always pays his debt" ) : alert(" All men must die");
+// (houseName == "stark" ) ? alert("Winter is coming" ) : (houseName == "lannister" ) ? alert("A lannister always pays his debt" ) : alert(" All men must die") ;
+
 
 // Switch
 
@@ -144,8 +144,8 @@ Implement the condition give below using`if..else` and`switch` statement.
 
 // let marks = Number(prompt("Tell your marks "));
 
-// switch(marks){
-//     case 90 :  alert("Marks can't be greater than 100");
+// switch(true){
+//     case marks > 100:  alert("Marks can't be greater than 100");
 //     break;
 //     case marks > 80 && marks < 100  : alert("Grade A");
 //     break;
@@ -166,16 +166,16 @@ Implement the condition give below using`if..else` and`switch` statement.
   - Anything else should alert`Not a valid input`
 */
 
-let wheather = prompt("What's wheather outside ?");
+// let wheather = prompt("What's wheather outside ?");
 
-if (wheather == "sunny"){
-   alert("Wear a T-shirt");
-} else if (wheather == "rainy"){
-  alert("Don't forget to take your raincoat");
-} else if (wheather == "hot"){
-  alert("Get a hanky");
-} else if (wheather == "freezing"){
-   alert("Get your sweeter on");
-} else {
-  alert("Not a valid input");
-}
+// if (wheather == "sunny"){
+//    alert("Wear a T-shirt");
+// } else if (wheather == "rainy"){
+//   alert("Don't forget to take your raincoat");
+// } else if (wheather == "hot"){
+//   alert("Get a hanky");
+// } else if (wheather == "freezing"){
+//    alert("Get your sweeter on");
+// } else {
+//   alert("Not a valid input");
+// }
