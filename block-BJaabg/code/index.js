@@ -14,34 +14,13 @@ const ACCESSORY_PRICE = 9.99;
 var bank_balance = 303.91;
 var amount = 0 ;
 
-
-if  (bank_balance > amount) {
-    amount = PHONE_PRICE + ACCESSORY_PRICE + ((PHONE_PRICE + ACCESSORY_PRICE) * TAX_RATE );
-    bank_balance = bank_balance - amount ;
-    alert ("yes i can affort it");
-    // console.log(amount);
-
-} else {
-    alert ("i can't afford it");
-    
-}   
-
-
-    // console.log(amount);
-    // // limit_Remaining = SPENDING_THRESHOLD - amount ;
-    // bank_balance = (bank_balance - amount) ;
-    // amount += amount ; 
-     
-   
-    // console.log ("purchase amount is $" + amount );
-
-    // console.log (bank_balance);
+while (amount < bank_balance) {
+    amount += PHONE_PRICE ;
+    if (amount < SPENDING_THRESHOLD) {
+        amount += ACCESSORY_PRICE;
+    }
+}
+var total_Amount = amount +  (amount * 0.08);
+console.log(`$ ${total_Amount}`);
 
 // ⛑ Answer of the above will `$334.76`.
-  // if (bank_balance > amount) {
-    //     alert ("You can but it ");
-    // } else {
-    //     alert (" Out of budget ");
-    // } 
-
-        // limit_Remaining  = (SPENDING_THRESHOLD - amount ); 
