@@ -82,13 +82,8 @@ Example:
 // let num1 = Number (prompt("tell first number"));
 // let num2 = Number (prompt("tell second number"));
 
-// if (num1===num2){
-//     alert("true");
-// }else {
-//     alert("false");
-// }
-
-
-// if (num1 && num2 === "true","null","undefined"){
+// if (isNaN(num1) || isNaN(num2)){
 //     alert("Enter a valid value");
+// }else{
+//     alert(num1 === num2);
 // }
